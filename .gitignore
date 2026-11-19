@@ -8,3 +8,6 @@ build/
 *.tsbuildinfo
 next-env.d.ts
 .scratch/
+
+# Local inspection screenshots
+/preview-*.png
