@@ -3,7 +3,7 @@ import type { Profile } from "@/data/profile";
 export default function QuickInfo({
   quickInfo,
 }: {
-  quickInfo: Profile["quickInfo"];
+  quickInfo: NonNullable<Profile["quickInfo"]>;
 }) {
   return (
     <section className="section">

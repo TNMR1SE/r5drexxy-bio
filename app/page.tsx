@@ -32,7 +32,7 @@ export default function Home() {
             <About about={profile.about} />
             <Hobbies hobbies={profile.hobbies} />
             <Socials socials={profile.socials} />
-            <QuickInfo quickInfo={profile.quickInfo} />
+            {profile.quickInfo && <QuickInfo quickInfo={profile.quickInfo} />}
             <Faq faq={profile.faq} />
 
             <div className="quote">
