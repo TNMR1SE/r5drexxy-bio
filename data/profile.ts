@@ -146,7 +146,7 @@ export const profile: Profile = {
     items: [
       {
         category: "CREATIVE",
-        title: "painting",
+        title: "Painting",
         text: "i like painting space and painting planets, its just calm and it gets stuff off my mind.",
       },
       {
@@ -165,7 +165,7 @@ export const profile: Profile = {
         text: "I like capturing places and small details. Nothing professional — just whatever looks good in the moment.",
       },
       {
-        category: "After Effects",
+        category: "AFTER EFFECTS",
         title: "Editing",
         text: "I love to make edits of cars, movies, and games, i am somewhat skilled at it and i will continue to be making more!",
       },

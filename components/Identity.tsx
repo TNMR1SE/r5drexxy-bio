@@ -8,8 +8,7 @@ export default function Identity({ profile }: { profile: Profile }) {
       <div className="identity">
         <div className="name">
           <h2>
-            {name}
-            <span>{handle}</span>
+            {name} <span>{handle}</span>
           </h2>
           <div className="username">{bio}</div>
         </div>
